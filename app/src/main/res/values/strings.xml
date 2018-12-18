@@ -1,0 +1,437 @@
+<resources>
+    <string name="app_name">openboxes</string>
+
+    <string name="version">Version: 1.0.1</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="authenticate">Authenticate</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="approve">Approve</string>
+    <string name="login">Login</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_username">This username is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_username_password">Invalid username or password.</string>
+    <string name="no_basic_setting">Unable to download basic settings from server.</string>
+    <string name="error_same_oldnew_password">New password can not be the same as old password.</string>
+    <string name="error_password_confirmation">Password confirmation do not match new password</string>
+    <string name="error">Error</string>
+    <string name="success">Sucess</string>
+    <string name="info">Info</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="name">Name</string>
+    <string name="customer_name">Name: </string>
+    <string name="father_name">Father Name</string>
+    <string name="grandfather_name">Grandfather Name</string>
+    <string name="language_code">Language Code</string>
+    <string name="kebele_id">Kebele ID</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="gote">Gote</string>
+    <string name="kebele">Kebele</string>
+    <string name="photo">Capture Photo</string>
+    <string name="status">Status</string>
+    <string name="voucher">Voucher</string>
+    <string name="date_issued">Date Issued</string>
+
+    <string name="farmLandInformation">Farm Land Information</string>
+    <string name="addButton">+</string>
+    <string name="remove">-</string>
+    <string name="land_size">Land Size (Hectar)</string>
+    <string name="crop_type">Crop Type</string>
+    <string name="grid_id">Grid ID</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="title_activity_enrollment">Enrollment</string>
+    <string name="enroll_customer">Enroll</string>
+    <string name="title_activity_customerlist">Customer List</string>
+    <string name="title_activity_customersubmenu">Customer Menu</string>
+    <string name="customer_list">Customer List</string>
+    <string name="enroll_date">Enroll date: </string>
+
+    <string name="language_amharic">Amharic</string>
+    <string name="language_oromoiffa">Oromoiffa</string>
+    <string name="language_tigirigna">Tigirigna</string>
+
+
+    <string name="status_active">Active</string>
+    <string name="status_inactive">Inactive</string>
+
+    <string name="saved_successfully">Saved successfully.</string>
+    <string name="save_failed">Failed to saved.</string>
+
+    <string name="write_successfully">Successfully write to NFC tag.</string>
+    <string name="write_failed">Failed to write to NFC tag.</string>
+
+    <string name="crop_teff">Teff</string>
+    <string name="crop_corn">Corn</string>
+    <string name="crop_barley">Barley</string>
+
+    <string name="nothing_to_display">Nothing to display</string>
+    <string name="title_activity_commodity">Input</string>
+
+    <string name="commodity">Input</string>
+    <string name="commodity_name">Input Name</string>
+    <string name="commodity_code">Code</string>
+    <string name="measurement_unit">Measurement Unit</string>
+    <string name="current_price">Current Price</string>
+    <string name="price_effective_date">Effective From</string>
+    <string name="commodity_list">Input List</string>
+
+    <string name="unit_kg">Kg.</string>
+    <string name="unit_liter">Ltr.</string>
+
+    <string name="tab">\u0009\u0009\u0009</string>
+    <string name="new_line">\n</string>
+    <string name="colon_space">: </string>
+    <string name="comma">,</string>
+    <string name="double_line">\n\n</string>
+    <string name="price_history">Price History</string>
+    <string name="no_price_history">There is no price history for the input.</string>
+
+    <string name="customer_options">Options</string>
+    <string name="write_to_nfc">Write to NFC tag?</string>
+
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="total_price">Total Price: </string>
+    <string name="currency_birr">Birr</string>
+
+    <string name="add_item">Add Item</string>
+    <string name="save">Save</string>
+    <string name="title_activity_entitlement">Entitlement</string>
+    <string name="entitlement">Entitlement</string>
+    <string name="title_activity_nfc">NFC Activity</string>
+    <string name="nfc_read_write">NFC Read/Write</string>
+
+    <string name="please_wait">Please wait ...</string>
+
+    <string name="write_nfc">Write to NFC</string>
+    <string name="read_nfc">Read NFC</string>
+    <string name="cancel">Cancel</string>
+    <string name="share_price_setting">Share Price Setting</string>
+    <string name="no_valid_price_setting">No valid price setting.</string>
+    <string name="commodity_not_found">There is no registered input.</string>
+
+    <string name="continue_redemption">Continue</string>
+
+
+    <string name="customer">Customer</string>
+    <string name="entitle_customer">Customer Entitlement</string>
+    <string name="entitle_customer_detail">Record entitlement for a customer</string>
+    <string name="edit_customer">Edit Customer</string>
+    <string name="edit_customer_detail">Edit Customer Detail</string>
+
+
+    <string name="entitled_commodities">Entitled Inputs</string>
+    <string name="entitled_commodities_detail">List of entitled inputs</string>
+    <string name="inputs_tobe_sold_detail">List of inputs to be sold</string>
+
+    <string name="commodities_price">List of input prices</string>
+
+    <string name="vouchers">Vouchers</string>
+    <string name="vouchers_detail">List of issued vouchers</string>
+    <string name="no_entitled_commodity">No Entitled Input</string>
+
+    <string name="generated_date">Generated date</string>
+    <string name="issue_date">Issue date</string>
+    <string name="exp_date">Exp. Date</string>
+    <string name="backup_db">Backup Database</string>
+
+    <string name="updated_date">Updated date</string>
+
+    <string name="redemption">Redemption</string>
+    <string name="full_redemption">Full Redemption</string>
+    <string name="full_redemption_detail">Redeem voucher fully</string>
+    <string name="parial_redemption">Partial Redemption</string>
+    <string name="parial_redemption_detail">Redeem voucher partially</string>
+    <string name="confirm_redemption">Are you sure you want to redeem voucher? </string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+    <string name="write_notice">Please tap on to the NFC tag to write on the tag.</string>
+    <string name="read_notice">Please tap on to the NFC tag to read from the tag.</string>
+
+    <string name="read_card">Please read the card first.</string>
+    <string name="select_input">Please select inputs to redeem.</string>
+
+    <string name="next">Next</string>
+    <string name="ok">Ok</string>
+    <string name="utilities">Utilities</string>
+
+    <string name="sample_content">Sample Content</string>
+
+    <string name="empty_card_content">Empty/Invalid card content.</string>
+    <string name="empty_entitlement">Entitlement list can not be empty.</string>
+    <string name="empty_sold_commodity_list">Sold input list can not be empty.</string>
+
+    <string name="search">Search</string>
+    <string name="price_setting">Price Setting</string>
+    <string name="input_price_list">Input Price List</string>
+    <string name="sync_price_setting">Sync Price Setting</string>
+    <string name="abc">Abc</string>
+    <string name="logout">Logout</string>
+    <string name="lock_unlock">Lock/Unlock</string>
+    <string name="sync">Sync</string>
+    <string name="about">About</string>
+    <string name="about_detail">Electronic voucher management system. </string>
+
+    <string name="feature_not_implemented">Feature not implemented.</string>
+
+    <string name="cashier_approval">Cashier Approval</string>
+    <string name="payment_mode">Payment Mode</string>
+    <string name="sales_mode">Sales Mode</string>
+    <string name="payment_mode_cash">Cash</string>
+    <string name="payment_mode_loan">Credit</string>
+    <string name="payment_mode_hybrid">Cash / Credit </string>
+    <string name="loan_down_payment">Credit Down Payment</string>
+
+    <string name="loan_repayment">Credit Repayment</string>
+    <string name="loan_repayment_detail">Credit Repayment</string>
+    <string name="loan_product_name">Credit Product Name</string>
+    <string name="loan_amount_total">Total Credit Amount</string>
+    <string name="loan_date">Date</string>
+    <string name="loan_remaining_amount">Remaining Amount</string>
+    <string name="loan_interest">Interest Amount</string>
+    <string name="loan_charge">Charge Amount</string>
+    <string name="loan_balance">Credit Balance</string>
+    <string name="loan_balance_total">Total Credit Balance</string>
+    <string name="loan_repayment_amount">Repayment Amount</string>
+    <string name="loan_charge_amount">Credit Charge Amount</string>
+    <string name="loan_transaction_list">Loan Transaction</string>
+    <string name="loan_transaction">Credit Transaction</string>
+    <string name="default_currency_amount">0.00</string>
+    <string name="loan_montly_repayment_amount">Monthly Repayment Amount</string>
+    <string name="loan_unknown_credit_logic">Used credit logic is not known. It should either be simple or compound. </string>
+    <string name="loan_fully_paid">Loan is fully paid</string>
+
+    <string name="repayment_list">Loan Repayment</string>
+    <string name="no_repayment">Repayment is not made to this loan transaction. </string>
+
+
+    <string name="sync_all">Sync All</string>
+    <string name="upload_all">Upload All</string>
+    <string name="auto_sync">Auto Sync</string>
+    <string name="sync_data">Sync Data</string>
+
+    <string name="phone_detail">Phone Detail</string>
+
+    <string name="no_unpaid_loan_balance">There is no unpaid credit balance. Please sync credit balance first.</string>
+
+    <string name="price_not_configured">Commodity price is not configured </string>
+
+    <string name="voucher_status">Voucher Status</string>
+
+    <string name="report">Report</string>
+
+    <string name="commission_viewer">Commission Viewer</string>
+    <string name="date_from">Date From</string>
+    <string name="date_to">Date To</string>
+    <string name="calculate">Calculate</string>
+
+    <!-- Customer related sync operations -->
+    <!--<string name="sync_customer_upload">Customer upload</string>-->
+    <!--<string name="sync_customer_download">Customer download</string>-->
+    <!--<string name="sync_voucher_upload">Voucher upload</string>-->
+    <!--<string name="sync_voucher_download">Voucher status download</string>-->
+    <!--<string name="sync_cardallocation_upload">Card allocation upload</string>-->
+    <!--<string name="sync_cardallocation_download">Card allocation status download</string>-->
+
+    <!-- Redemption related sync operations -->
+    <!--<string name="sync_redemption_upload">Redemption upload</string>-->
+
+    <string name="sync_group_customer">Customer Sync</string>
+    <string name="sync_group_voucher">Voucher Sync</string>
+    <string name="sync_group_input">Input Sync</string>
+    <string name="sync_group_loan">Loan Sync</string>
+    <string name="sync_group_redemption">Redemption Sync</string>
+    <string name="sync_group_officer">Officer Sync</string>
+    <string name="sync_group_setting">Setting Sync</string>
+
+
+    <string name="price_setting_saved">Shared price setting is saved successfully.</string>
+
+    <string name="total_collected_amount">Total Collected Amount: </string>
+    <string name="commission_rate">Commission Rate: </string>
+    <string name="commission_amount">Commission Amount:</string>
+    <string name="change_daterange">Change Date Range</string>
+
+    <string name="cash_only_commodities">Credit based sales is not allowed for the following commodities: </string>
+
+    <string name="invalid_date_range">Invalid date range.</string>
+
+    <string name="no_commission_rule">Commission rule is not found. Please sync setting first.</string>
+
+    <string name="setting_download_failed">Setting download has failed.</string>
+
+    <!-- regrouped sync item list -->
+    <string name="sync_customer_title">Customer</string>
+    <string name="sync_customer_detail">Sync all customers</string>
+
+    <string name="sync_voucher_title">Voucher</string>
+    <string name="sync_voucher_detail">Sync all voucher</string>
+
+    <string name="sync_input_title">Inputs</string>
+    <string name="sync_input_detail">Sync all inputs</string>
+
+    <string name="sync_loan_title">Loan</string>
+    <string name="sync_loan_detail">Sync all loan</string>
+
+    <string name="sync_setting_title">Settings</string>
+    <string name="sync_setting_detail">Sync all settings</string>
+
+    <string name="sync_redemption_title">Redemption</string>
+    <string name="sync_redemption_detail">Sync all redemption</string>
+
+
+    <!-- regrouped upload item list -->
+    <string name="upload_customer_title">Customer</string>
+    <string name="upload_customer_detail">Upload all customers</string>
+
+    <string name="upload_voucher_title">Voucher</string>
+    <string name="upload_voucher_detail">Upload all voucher</string>
+
+    <string name="upload_input_title">Input Price</string>
+    <string name="upload_input_detail">Upload all inputs prices</string>
+
+    <string name="upload_loan_title">Loan</string>
+    <string name="upload_loan_detail">Upload all loan</string>
+
+
+    <string name="upload_changedpassword_title">Changed Password</string>
+    <string name="upload_changedpassword_detail">Upload all password changes</string>
+
+    <string name="upload_redemption_title">Redemption</string>
+    <string name="upload_redemption_detail">Upload all redemption</string>
+
+
+
+    <!-- regrouped sync item list -->
+    <string name="download_customer_title">Customer</string>
+    <string name="download_customer_detail">Download all customers</string>
+
+    <string name="download_voucher_title">Voucher Status</string>
+    <string name="download_voucher_detail">Download voucher status</string>
+
+    <string name="download_input_title">Inputs</string>
+    <string name="download_input_detail">Download all inputs</string>
+
+    <string name="download_loan_title">Loan Setting</string>
+    <string name="download_loan_detail">Download loan Settings</string>
+
+    <string name="download_setting_title">Settings</string>
+    <string name="download_setting_detail">Download all settings</string>
+
+
+    <string name="blocking_ui_title">Syncing</string>
+    <string name="downloading">Downloading %s</string>
+    <string name="uploading">Uploading %s</string>
+    <string name="upload_option_list">Upload</string>
+    <string name="download_option_list">Download</string>
+
+
+    <string name="time_sync_failure">Time mismatch. Please adjust the mobile time.</string>
+    <string name="time_sync_failure_title">Time mismatch</string>
+    <string name="time_sync_server_time">The server time is </string>
+
+    <string name="report_issued_voucher_list">Issued voucher list</string>
+
+    <string name="report_redeemed_voucher_list">Redemption list</string>
+
+    <string name="total_kg">Total Kg: </string>
+    <string name="total_litter">Total Ltr: </string>
+
+    <string name="customer_already_exists">Customer with the given kebele ID exists.</string>
+
+    <string name="nfc_off">NFC is off.</string>
+    <string name="no_user_session">Unable to get user session detail. Please login again.</string>
+    <string name="limited_connectivity">Limted or No connectivity</string>
+    <string name="tag_not_initialized">NTAG is not initialized.</string>
+    <string name="no_content">There is no content to write.</string>
+
+
+
+    <!-- newly added stirngs -->
+    <string name="title_activity_bincard">Bincard List</string>
+    <string name="bincard_list">Bincard List</string>
+    <string name="lot">Lot</string>
+    <string name="code">Code</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="received">Received</string>
+    <string name="issued">Issued</string>
+    <string name="facility">Facility</string>
+    <string name="internal_location">Internal Location</string>
+    <string name="loss_adjustment">Loss/Adjustment</string>
+    <string name="loss">Loss</string>
+    <string name="adjustment">Adjustment</string>
+    <string name="quantity_on_hand">Quantity on hand</string>
+
+
+
+
+    <string name="app_detail">Openboxes mobile app</string>
+    <string name="transaction">Transaction</string>
+    <string name="stock_keeping">Stock Keeping</string>
+    <string name="consumption">Consumption</string>
+    <string name="utilties">Utilities</string>
+
+    <string name="generic">Generic</string>
+    <string name="product">Product</string>
+    <string name="product_list">Product List</string>
+    <string name="product_list_detail">Product list by lot number</string>
+    <string name="inventory_control_list">Inventory Control List</string>
+    <string name="inventory_control_list_detail">List of all products</string>
+    <string name="receive_form">Receive Form</string>
+    <string name="issue_form">Issue Form</string>
+    <string name="lost_adjustement_form">Loss/Adjustement Form</string>
+    <string name="remark">Remark</string>
+
+    <string name="tran_issue_form">Issue Form</string>
+    <string name="tran_issue_form_detail">Issue to facilities</string>
+
+    <string name="tran_shipment_list">Shipment List</string>
+    <string name="tran_shipment_list_detail">Shipment from facilities</string>
+
+    <string name="tran_request_form">Request Form</string>
+    <string name="tran_request_form_detail">Request facility</string>
+
+    <string name="tran_request_list">Request List</string>
+    <string name="tran_request_list_detail">Request from facilities</string>
+
+    <string name="shipped_date">Shipped Date</string>
+
+
+    <string name="receiving_facility">Receiving Facility</string>
+    <string name="requested_facility">Requested Facility</string>
+    <string name="requested_date">Requested date</string>
+    <string name="requested">Requested</string>
+
+    <string name="synchronization">Synchronization</string>
+    <string name="synchronization_detail">Download/Upload data</string>
+    <string name="change_password_detail">Change your password</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="available_item">Available Item</string>
+    <string name="lot_number">Lot Number</string>
+    <string name="issued_quantity">Issued Quantity</string>
+
+
+    <string name="single_shipment">Single Shipment</string>
+
+    <string name="shipment_type">Shipment Type</string>
+    <string name="shipment_item">Shipment Item</string>
+
+    <string name="request">Request</string>
+
+</resources>

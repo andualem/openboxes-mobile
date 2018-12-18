@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="20dp"
+    android:paddingRight="5dp">
+
+
+    <!-- receive item form -->
+    <TextView
+        android:id="@+id/lblProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/product"/>
+
+    <TextView
+        android:id="@+id/tvProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lot_number"/>
+
+    <TextView
+        android:id="@+id/tvLotNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expiry_date"/>
+
+    <TextView
+        android:id="@+id/tvExpiryDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/measurement_unit"/>
+
+    <TextView
+        android:id="@+id/tvMeasurementUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/issued_quantity"/>
+
+    <TextView
+        android:id="@+id/tvIssuedQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <TextView
+        android:id="@+id/lblReceivedQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/received"/>
+    <EditText
+        android:id="@+id/etReceivedQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:inputType="numberDecimal"
+        android:text="@string/default_currency_amount"/>
+
+    <TextView
+        android:id="@+id/lblReceiveRemark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remark"/>
+    <EditText
+        android:id="@+id/etReceiveRemark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</LinearLayout>

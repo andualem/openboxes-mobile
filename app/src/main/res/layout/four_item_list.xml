@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:paddingRight="8dip"
+	android:paddingLeft="8dip"
+	android:paddingTop="4dip"
+	android:paddingBottom="8dip"
+	android:minHeight="?android:attr/listPreferredItemHeight"
+	android:background="@android:drawable/dialog_holo_light_frame">
+
+	<RelativeLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center"
+		android:layout_alignParentLeft="true" >
+		<TextView
+			android:id="@+id/title"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:text="text1"
+			android:layout_alignParentLeft="true"
+			android:textStyle="bold"/>
+
+
+		<TextView
+			android:id="@+id/quantity"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:textStyle="bold"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="text4"
+			android:layout_below="@+id/title"
+			android:layout_alignParentLeft="true"/>
+
+
+		<TextView
+			android:id="@+id/subtitle"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:textStyle="bold"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="text2"
+			android:layout_alignParentRight="true"/>
+
+		<TextView
+			android:id="@+id/moreDetail"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="bottom"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="text3"
+			android:layout_alignParentRight="true"
+			android:layout_below="@+id/subtitle"/>
+		
+	</RelativeLayout>
+</LinearLayout>

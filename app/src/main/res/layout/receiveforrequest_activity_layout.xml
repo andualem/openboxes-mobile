@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblIssuingFacility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facility"/>
+
+
+            <TextView
+                android:id="@+id/tvIssuingFacility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2sp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <TableLayout
+                android:id="@+id/headerTableLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="8dp"
+                android:stretchColumns="0,1,2">
+
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dip" >
+
+                    <TextView
+                        android:id="@+id/tvHeaderProduct"
+                        android:text="@string/product"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/tvHeaderRequested"
+                        android:text="@string/requested"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                    <TextView
+                        android:id="@+id/tvheaderIssued"
+                        android:text="@string/issued"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                    <TextView
+                        android:id="@+id/tvHeaderReceived"
+                        android:text="@string/received"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                </TableRow>
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="2sp"
+                    android:background="@color/colorPrimaryDark"/>
+            </TableLayout>
+
+            <TableLayout
+                android:id="@+id/receiveForRequestTableLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="8dp"
+                android:stretchColumns="0,1,2">
+
+
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <Button
+        android:id="@+id/btnSaveReceive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/save"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/ui_white"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:fontFamily="Noto Sans Ethiopic"/>
+
+</RelativeLayout>

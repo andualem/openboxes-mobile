@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btns"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/requestedProductLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblRequestedFacility"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/requested_facility"/>
+
+
+            <Spinner
+                android:id="@+id/spRequestedFacilities"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2sp"
+                android:background="@color/colorPrimaryDark"/>
+
+            <org.health.supplychain.view.NonScrollListView
+                android:id="@+id/lvRequestedProductList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></org.health.supplychain.view.NonScrollListView>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="2sp"
+                android:background="@color/colorPrimaryDark"/>
+
+
+            <!-- request form -->
+            <TextView
+                android:id="@+id/lblProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/product"/>
+
+            <Spinner
+                android:id="@+id/spProduct"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+            <TextView
+                android:id="@+id/lblRequestedQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quantity"/>
+            <EditText
+                android:id="@+id/etRequestedQuantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="@string/default_currency_amount"/>
+
+            <TextView
+                android:id="@+id/lblRequestRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/remark"/>
+            <EditText
+                android:id="@+id/etRequestRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+            <Button
+                android:id="@+id/btnAddItem"
+                android:textColor="@color/ui_white"
+                android:textStyle="bold"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="right"
+                android:text="+"
+                android:textSize="22dp"
+                android:background="@drawable/shadow_circle"/>
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/btns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+
+        <Button
+            android:id="@+id/btnSaveRequest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/ui_white"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:fontFamily="Noto Sans Ethiopic"/>
+    </RelativeLayout>
+
+</RelativeLayout>

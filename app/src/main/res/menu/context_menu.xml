@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_entitlement"
+        android:title="@string/entitlement" />
+
+
+    <item android:id="@+id/menu_voucher"
+        android:title="@string/voucher" />
+
+
+    <item android:id="@+id/menu_edit"
+        android:title="@string/edit_customer" />
+
+
+    <item android:id="@+id/menu_repayment"
+        android:title="@string/loan_repayment" />
+</menu>

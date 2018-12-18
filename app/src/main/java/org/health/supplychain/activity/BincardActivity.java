@@ -1,0 +1,20 @@
+package org.health.supplychain.activity;
+
+import android.os.Bundle;
+import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
+
+import org.health.supplychain.R;
+
+/**
+ * Created by aworkneh on 9/15/2018.
+ */
+
+public class BincardActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.bincard_layout);
+    }
+}

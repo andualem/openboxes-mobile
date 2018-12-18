@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10sp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_from" />
+
+            <DatePicker
+                android:id="@+id/dpDateFrom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:padding="-20dp"
+                android:datePickerMode="spinner"></DatePicker>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/date_to" />
+
+            <DatePicker
+                android:id="@+id/dpDateTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:calendarViewShown="false"
+                android:scaleX="0.8"
+                android:scaleY="0.8"
+                android:datePickerMode="spinner"></DatePicker>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
